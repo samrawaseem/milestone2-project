@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #171b22;
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background: #222;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    color: #bbb;
+  }
+  
+  .highlight {
+    color: #f45697;
+    font-weight: bold;
+  }
+  
+  .skills, .education, .experience {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills li, .education li, .experience li {
+    background: #222;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+  }
+  
